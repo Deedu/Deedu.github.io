@@ -16,7 +16,7 @@ nav {
 }
 
 a {
-    color: rgba(0,0,0,.5) !important;
+    color: olivedrab !important;
     text-decoration: none;
 }
 
@@ -62,13 +62,14 @@ li {
 
 /* Section #1 - Opening banner */
 .opening-banner {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg); */
-    background-image: url(../images/nyc.jpg);
-    background-position: center center no-repeat fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg);
+    /*background-image: url(../images/nyc.jpg);*/
+    background-position: center center no-repeat ;
     background-size: cover !important;
     height: 40em;
     position: relative;
     text-align: center;
+    /*-webkit-transform: rotate(20deg);*/
 }
 
 .opening-banner > div {
@@ -78,10 +79,10 @@ li {
 .opening-header {
     text-align: center;
     font-size: 56px;
-    color: whitesmoke !important;
+    color: dodgerblue !important;
     border-bottom: none !important;
 
-    /*text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;*/
+    text-shadow: 1px 1px 1px black, 0 0 25px grey, 0 0 5px darkblue;
 }
 
 /* Section 2 - Main content */
@@ -98,6 +99,7 @@ hr {
 
 h1 {
     border-bottom: 1.5px solid #eee;
+
 }
 
 .special-heading {
